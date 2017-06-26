@@ -1,6 +1,9 @@
 /*
-IE 11
+IE 11  10
 Поиск в сафари и меню в футере
+минифицировать файлы
+проверить
+
 */
 html {
   -webkit-box-sizing: border-box; 
@@ -144,7 +147,7 @@ img {
 }
 .header-form-search input::placeholder {
   font-size: 15px;
-  line-height: 36px;
+  line-height: 30px;
   color: #000000;
 }
 .btn-header-top {
@@ -934,6 +937,11 @@ img {
   -ms-flex-pack: justify;
     justify-content: space-between;
 }
+.footer-top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .footer-top-left a {
   position: relative;
   color: rgba(255,255,255,0.5);
@@ -956,7 +964,7 @@ img {
 .footer-top-left a:first-child::before {
   content: "";
   position: absolute;
-  top: 5px;
+  top: 12px;
   left: -25px;
   background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
@@ -970,7 +978,7 @@ img {
 .footer-top-left a:nth-child(2)::before {
   content: "";
   position: absolute;
-  top: 5px;
+  top: 12px;
   left: 40px;
   background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
@@ -984,7 +992,7 @@ img {
 .footer-top-left a:nth-child(3)::before {
   content: "";
   position: absolute;
-  top: 5px;
+  top: 12px;
   left: 40px;
   background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
@@ -1457,7 +1465,7 @@ input[type="radio"]:checked + label::after {
   margin-left: 90px;
   z-index: 1;
   position: relative;
-  width: 890px;
+  width: 790px;
   padding-top: 10px;
 }
 .sorting-menu-block p {
